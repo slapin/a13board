@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 20 Мар 2013 22:37:36
+EESchema Schematic File Version 2  date Срд 20 Мар 2013 22:49:03
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -187,10 +187,10 @@ F 3 "" H 2250 2150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L A13 U2B1
+L A13 U2
 U 2 1 5148E7F0
 P 7100 1850
-F 0 "U2B1" H 7100 1750 50  0000 C CNN
+F 0 "U2" H 7100 1750 50  0000 C CNN
 F 1 "A13" H 7100 1950 50  0000 C CNN
 F 2 "" H 7100 1850 60  0001 C CNN
 F 3 "" H 7100 1850 60  0001 C CNN

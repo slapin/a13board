@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 20 Мар 2013 22:37:36
+EESchema Schematic File Version 2  date Срд 20 Мар 2013 22:49:03
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -292,10 +292,10 @@ DDR3_A5
 Text Label 7050 1800 0    60   ~ 0
 DDR3_A4
 $Comp
-L A13 U2C1
+L A13 U2
 U 3 1 5148E758
 P 6250 2950
-F 0 "U2C1" H 6250 2850 50  0000 C CNN
+F 0 "U2" H 6250 2850 50  0000 C CNN
 F 1 "A13" H 6250 3050 50  0000 C CNN
 F 2 "" H 6250 2950 60  0001 C CNN
 F 3 "" H 6250 2950 60  0001 C CNN
