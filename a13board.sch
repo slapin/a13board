@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 20 Мар 2013 03:58:05
+EESchema Schematic File Version 2  date Срд 20 Мар 2013 22:37:36
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,14 +33,15 @@ LIBS:A13
 LIBS:allwinner_a13
 LIBS:ax209
 LIBS:hynix
+LIBS:hy27ug088g5m
 LIBS:a13board-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title ""
-Date "19 mar 2013"
+Date "20 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""

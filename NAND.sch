@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 20 Мар 2013 03:58:05
+EESchema Schematic File Version 2  date Срд 20 Мар 2013 22:37:36
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -33,14 +33,15 @@ LIBS:A13
 LIBS:allwinner_a13
 LIBS:ax209
 LIBS:hynix
+LIBS:hy27ug088g5m
 LIBS:a13board-cache
-EELAYER 25  0
+EELAYER 27 0
 EELAYER END
-$Descr A4 11700 8267
+$Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
 Title ""
-Date "19 mar 2013"
+Date "20 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -175,21 +176,24 @@ Wire Wire Line
 Wire Wire Line
 	2950 1950 2850 1950
 $Comp
-L H27UBG8T2A/TSOP48 U?
+L H27UBG8T2A/TSOP48 U1
 U 1 1 5148F4ED
 P 2250 2150
-F 0 "U?" H 1850 3575 50  0000 L BNN
+F 0 "U1" H 1850 3575 50  0000 L BNN
 F 1 "H27UBG8T2A/TSOP48" H 1850 650 50  0000 L BNN
 F 2 "TSOP48" H 2250 2300 50  0001 C CNN
+F 3 "" H 2250 2150 60  0001 C CNN
 	1    2250 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L A13 U?
+L A13 U2B1
 U 2 1 5148E7F0
 P 7100 1850
-F 0 "U?" H 7100 1750 50  0000 C CNN
+F 0 "U2B1" H 7100 1750 50  0000 C CNN
 F 1 "A13" H 7100 1950 50  0000 C CNN
+F 2 "" H 7100 1850 60  0001 C CNN
+F 3 "" H 7100 1850 60  0001 C CNN
 	2    7100 1850
 	1    0    0    -1  
 $EndComp

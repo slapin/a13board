@@ -1,4 +1,4 @@
-update=Срд 20 Мар 2013 04:01:16
+update=Срд 20 Мар 2013 17:23:58
 version=1
 last_client=eeschema
 [cvpcb]
@@ -105,3 +105,4 @@ LibName31=A13
 LibName32=allwinner_a13
 LibName33=ax209
 LibName34=hynix
+LibName35=hy27ug088g5m
