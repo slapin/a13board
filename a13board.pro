@@ -1,6 +1,6 @@
-update=Срд 20 Мар 2013 03:08:24
+update=Срд 20 Мар 2013 04:01:16
 version=1
-last_client=kicad
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
@@ -37,6 +37,8 @@ LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
 LibName12=/home/slapin/a13board/allwinner_a13
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -102,5 +104,4 @@ LibName30=valves
 LibName31=A13
 LibName32=allwinner_a13
 LibName33=ax209
-[general]
-version=1
+LibName34=hynix
