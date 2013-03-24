@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Птн 22 Мар 2013 04:53:03
+EESchema Schematic File Version 2  date Вск 24 Мар 2013 05:47:15
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,14 +35,15 @@ LIBS:ax209
 LIBS:hynix
 LIBS:hy27ug088g5m
 LIBS:h5tq2g43cfr
+LIBS:sy8008baac
 LIBS:a13board-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title ""
-Date "22 mar 2013"
+Date "24 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -61,5 +62,11 @@ S 2650 1800 850  2150
 U 5148DFF8
 F0 "DRAM" 60
 F1 "DRAM.sch" 60
+$EndSheet
+$Sheet
+S 5800 1800 1000 2100
+U 514E0E66
+F0 "power" 50
+F1 "power.sch" 50
 $EndSheet
 $EndSCHEMATC
