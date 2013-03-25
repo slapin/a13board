@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Вск 24 Мар 2013 04:34:20
+EESchema-LIBRARY Version 2.3  Date: Пнд 25 Мар 2013 19:53:52
 #encoding utf-8
 #
 # SY8008BAAC
@@ -14,7 +14,7 @@ X EN 1 -550 0 300 R 50 50 1 1 I
 X GND 2 -550 -100 300 R 50 50 1 1 W
 X LX 3 600 100 300 L 50 50 1 1 w
 X IN 4 -550 100 300 R 50 50 1 1 W
-X FB 5 600 -100 300 L 50 50 1 1 W
+X FB 5 600 -100 300 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

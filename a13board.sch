@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вск 24 Мар 2013 05:47:15
+EESchema Schematic File Version 2  date Пнд 25 Мар 2013 22:12:31
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,9 +41,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
-Date "24 mar 2013"
+Date "25 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -68,5 +68,11 @@ S 5800 1800 1000 2100
 U 514E0E66
 F0 "power" 50
 F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 2700 4600 800  2300
+U 515122DA
+F0 "CPU" 50
+F1 "CPU.sch" 50
 $EndSheet
 $EndSCHEMATC
