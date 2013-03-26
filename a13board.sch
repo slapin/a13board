@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Втр 26 Мар 2013 13:07:04
+EESchema Schematic File Version 2  date Втр 26 Мар 2013 22:36:43
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,6 +36,7 @@ LIBS:hynix
 LIBS:hy27ug088g5m
 LIBS:h5tq2g43cfr
 LIBS:sy8008baac
+LIBS:ra4x0402
 LIBS:a13board-cache
 EELAYER 27 0
 EELAYER END

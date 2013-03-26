@@ -1,4 +1,4 @@
-update=Вск 24 Мар 2013 04:35:18
+update=Втр 26 Мар 2013 18:20:46
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,3 +85,4 @@ LibName34=hynix
 LibName35=hy27ug088g5m
 LibName36=h5tq2g43cfr
 LibName37=sy8008baac
+LibName38=ra4x0402
