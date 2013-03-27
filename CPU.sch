@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Втр 26 Мар 2013 22:36:43
+EESchema Schematic File Version 2  date Срд 27 Мар 2013 19:16:56
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 5
 Title ""
-Date "26 mar 2013"
+Date "27 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -63,46 +63,7 @@ F 3 "" H 5700 3250 60  0000 C CNN
 	1    5700 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3.3V #PWR046
-U 1 1 51516C06
-P 6050 7000
-F 0 "#PWR046" H 6050 6960 30  0001 C CNN
-F 1 "+3.3V" H 6050 7110 30  0000 C CNN
-F 2 "" H 6050 7000 60  0000 C CNN
-F 3 "" H 6050 7000 60  0000 C CNN
-	1    6050 7000
-	1    0    0    -1  
-$EndComp
-Text GLabel 4300 6950 0    60   Input ~ 0
-1.2V_CPU
-Text GLabel 4300 7100 0    60   Input ~ 0
-1.2V_INT
-Text GLabel 4300 7250 0    60   Input ~ 0
-VPP
-$Comp
-L C C24
-U 1 1 5151814E
-P 6450 7450
-F 0 "C24" H 6500 7550 50  0000 L CNN
-F 1 "22uF/6.3V" H 6500 7350 50  0000 L CNN
-F 2 "" H 6450 7450 60  0000 C CNN
-F 3 "" H 6450 7450 60  0000 C CNN
-	1    6450 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR047
-U 1 1 51518167
-P 6450 7700
-F 0 "#PWR047" H 6450 7700 30  0001 C CNN
-F 1 "GND" H 6450 7630 30  0001 C CNN
-F 2 "" H 6450 7700 60  0000 C CNN
-F 3 "" H 6450 7700 60  0000 C CNN
-	1    6450 7700
-	1    0    0    -1  
-$EndComp
-Text GLabel 2650 6000 0    60   Input ~ 0
+Text GLabel 2650 6000 0    26   Input ~ 0
 RESET
 Text GLabel 9350 4700 2    60   Input ~ 0
 TWI0_SDA
@@ -129,85 +90,7 @@ SDC0_CMD
 Text GLabel 9300 4550 2    60   Input ~ 0
 SDC0_CLK
 Wire Wire Line
-	6150 6750 6150 7050
-Wire Wire Line
-	6150 6850 6450 6850
-Wire Wire Line
-	6450 6850 6450 6750
-Wire Wire Line
-	6250 6750 6250 6850
-Connection ~ 6250 6850
-Wire Wire Line
-	6350 6750 6350 6850
-Connection ~ 6350 6850
-Wire Wire Line
-	6050 7050 7050 7050
-Wire Wire Line
-	6050 7050 6050 7000
-Connection ~ 6150 6850
-Wire Wire Line
-	5350 6750 5350 6850
-Wire Wire Line
-	5350 6850 4650 6850
-Wire Wire Line
-	4650 6750 4650 6950
-Wire Wire Line
-	4750 6750 4750 6850
-Connection ~ 4750 6850
-Wire Wire Line
-	4850 6750 4850 6850
-Connection ~ 4850 6850
-Wire Wire Line
-	4950 6750 4950 6850
-Connection ~ 4950 6850
-Wire Wire Line
-	5050 6750 5050 6850
-Connection ~ 5050 6850
-Wire Wire Line
-	5150 6750 5150 6850
-Connection ~ 5150 6850
-Wire Wire Line
-	5250 6750 5250 6850
-Connection ~ 5250 6850
-Wire Wire Line
-	5950 6750 5950 6850
-Wire Wire Line
-	5950 6850 5550 6850
-Wire Wire Line
-	5550 6750 5550 7100
-Wire Wire Line
-	5650 6750 5650 6850
-Connection ~ 5650 6850
-Wire Wire Line
-	5750 6750 5750 6850
-Connection ~ 5750 6850
-Wire Wire Line
-	5850 6750 5850 6850
-Connection ~ 5850 6850
-Wire Wire Line
-	4650 6950 4300 6950
-Connection ~ 4650 6850
-Wire Wire Line
-	5550 7100 4300 7100
-Connection ~ 5550 6850
-Wire Wire Line
-	6650 6750 6650 7250
-Wire Wire Line
-	6650 7250 4300 7250
-Wire Wire Line
-	6450 7650 6450 7700
-Wire Wire Line
-	6750 6750 6750 7650
-Wire Wire Line
-	6750 7650 6450 7650
-Wire Wire Line
 	2650 6000 2950 6000
-Wire Wire Line
-	6950 7050 6950 6750
-Connection ~ 6150 7050
-Wire Wire Line
-	7050 7050 7050 6750
-Connection ~ 6950 7050
 Wire Wire Line
 	8450 4750 8500 4750
 Wire Wire Line
@@ -232,7 +115,7 @@ Wire Wire Line
 	8550 5450 8550 5500
 Wire Wire Line
 	8550 5500 9350 5500
-Text GLabel 2650 5600 0    60   Input ~ 0
+Text GLabel 2650 5600 0    26   Input ~ 0
 UBOOT
 Wire Wire Line
 	2650 5600 2950 5600
@@ -596,54 +479,34 @@ Wire Wire Line
 	9150 5950 9150 6100
 Wire Wire Line
 	9150 6100 9400 6100
-Text GLabel 2650 5800 0    60   Input ~ 0
+Text GLabel 2650 5800 0    26   Input ~ 0
 NMI_N
-Text GLabel 2600 4650 0    60   Input ~ 0
+Text GLabel 2600 4900 0    26   Input ~ 0
 PB2/EINT16
-Text GLabel 2600 4800 0    60   Input ~ 0
+Text GLabel 2600 5000 0    26   Input ~ 0
 PB4/EINT18
-Text GLabel 2600 4950 0    60   Input ~ 0
+Text GLabel 2600 5100 0    26   Input ~ 0
 PB3/EINT17
-Text GLabel 2600 5100 0    60   Input ~ 0
+Text GLabel 2600 5200 0    26   Input ~ 0
 PG2/EINT2
-Text GLabel 2600 5250 0    60   Input ~ 0
+Text GLabel 2600 5300 0    26   Input ~ 0
 PG1/EINT1
-Text GLabel 2600 5400 0    60   Input ~ 0
+Text GLabel 2600 5400 0    26   Input ~ 0
 PG0/EINT0
 Wire Wire Line
 	2950 5800 2650 5800
 Wire Wire Line
 	2950 5400 2600 5400
 Wire Wire Line
-	2950 5300 2650 5300
+	2600 5300 2950 5300
 Wire Wire Line
-	2650 5300 2650 5250
+	2600 5200 2950 5200
 Wire Wire Line
-	2650 5250 2600 5250
+	2600 5100 2950 5100
 Wire Wire Line
-	2950 5200 2650 5200
+	2600 5000 2950 5000
 Wire Wire Line
-	2650 5200 2650 5100
-Wire Wire Line
-	2650 5100 2600 5100
-Wire Wire Line
-	2950 5100 2700 5100
-Wire Wire Line
-	2700 5100 2700 4950
-Wire Wire Line
-	2700 4950 2600 4950
-Wire Wire Line
-	2950 5000 2750 5000
-Wire Wire Line
-	2750 5000 2750 4800
-Wire Wire Line
-	2750 4800 2600 4800
-Wire Wire Line
-	2950 4900 2800 4900
-Wire Wire Line
-	2800 4900 2800 4650
-Wire Wire Line
-	2800 4650 2600 4650
+	2600 4900 2950 4900
 Wire Wire Line
 	8450 1700 8600 1700
 Wire Wire Line
@@ -688,20 +551,58 @@ Wire Wire Line
 	8450 3700 8600 3700
 Wire Wire Line
 	8450 3800 8600 3800
-Text GLabel 2600 4200 0    60   Input ~ 0
+Text GLabel 2600 4400 0    26   Input ~ 0
 PE11
-Text GLabel 2550 4350 0    60   Input ~ 0
+Text GLabel 2600 4600 0    26   Input ~ 0
 PG4
-Text GLabel 2550 4500 0    60   Input ~ 0
+Text GLabel 2600 4700 0    26   Input ~ 0
 PG3
-Text GLabel 2600 4050 0    60   Input ~ 0
+Text GLabel 2600 4300 0    26   Input ~ 0
 PE10
-Text GLabel 2600 3900 0    60   Input ~ 0
-PE10
-Text GLabel 2600 3750 0    60   Input ~ 0
+Text GLabel 2600 4200 0    26   Input ~ 0
 PE9
-Text GLabel 2600 3600 0    60   Input ~ 0
+Text GLabel 2600 4100 0    26   Input ~ 0
 PE8
-Text GLabel 2600 3450 0    60   Input ~ 0
+Text GLabel 2600 4000 0    26   Input ~ 0
 PE7
+Text GLabel 2600 3900 0    26   Input ~ 0
+PE6
+Text GLabel 2600 3800 0    26   Input ~ 0
+PE6
+Text GLabel 2600 3700 0    26   Input ~ 0
+PE6
+Text GLabel 2600 3600 0    26   Input ~ 0
+PE6
+Text GLabel 2600 3500 0    26   Input ~ 0
+PE6
+Text GLabel 2600 3600 0    26   Input ~ 0
+PE7
+Text GLabel 2600 3400 0    26   Input ~ 0
+PE6
+Text GLabel 2600 3300 0    26   Input ~ 0
+PE6
+Text GLabel 2600 2800 0    26   Input ~ 0
+PE6
+Text GLabel 2600 2700 0    26   Input ~ 0
+PE6
+Text GLabel 2600 2600 0    26   Input ~ 0
+PE6
+Text GLabel 2600 2500 0    26   Input ~ 0
+PE6
+Text GLabel 2600 2400 0    26   Input ~ 0
+PE6
+Text GLabel 2600 2300 0    26   Input ~ 0
+PE6
+Text GLabel 2600 2200 0    26   Input ~ 0
+PE6
+Text GLabel 2600 1600 0    26   Input ~ 0
+PG12
+Text GLabel 2600 1500 0    26   Input ~ 0
+PG11
+Text GLabel 2600 1400 0    26   Input ~ 0
+PG10
+Text GLabel 2600 1300 0    26   Input ~ 0
+PG9
+Text GLabel 2600 1200 0    26   Input ~ 0
+PB10
 $EndSCHEMATC
