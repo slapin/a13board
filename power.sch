@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 27 Мар 2013 19:16:56
+EESchema Schematic File Version 2  date Чтв 28 Мар 2013 04:12:42
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -42,9 +42,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 4 6
 Title ""
-Date "27 mar 2013"
+Date "28 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -629,7 +629,7 @@ L C C37
 U 1 1 514E6309
 P 5950 5600
 F 0 "C37" H 6000 5700 50  0000 L CNN
-F 1 "NA(10uF/6.3V)" V 6000 4950 50  0000 L CNN
+F 1 "10uF/6.3V" V 6000 4950 50  0000 L CNN
 F 2 "" H 5950 5600 60  0000 C CNN
 F 3 "" H 5950 5600 60  0000 C CNN
 	1    5950 5600
@@ -649,7 +649,7 @@ RESET_SW2
 Text GLabel 550  4850 1    60   Input ~ 0
 PWR_BUT
 Text GLabel 1400 5550 0    60   Input ~ 0
-EXTERN
+EXTEN
 Text GLabel 1450 3000 0    60   Input ~ 0
 PIN3
 Text GLabel 1450 3150 0    60   Input ~ 0
@@ -2281,4 +2281,33 @@ Connection ~ 11100 5700
 Wire Wire Line
 	10250 5900 11100 5900
 Connection ~ 11100 5900
+Text GLabel 5000 5700 2    26   Input ~ 0
+LDO4_3V3_200MA
+Wire Wire Line
+	5000 5700 4900 5700
+Wire Wire Line
+	4900 5700 4900 5600
+Connection ~ 4900 5600
+$Comp
+L +5V #PWR052
+U 1 1 515406B8
+P 2850 1250
+F 0 "#PWR052" H 2850 1340 20  0001 C CNN
+F 1 "+5V" H 2850 1340 30  0000 C CNN
+F 2 "" H 2850 1250 60  0000 C CNN
+F 3 "" H 2850 1250 60  0000 C CNN
+	1    2850 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1350 2850 1250
+Connection ~ 2850 1350
+Text GLabel 1600 3700 0    26   Input ~ 0
+BACKUP
+Wire Wire Line
+	1800 3800 1750 3800
+Wire Wire Line
+	1750 3800 1750 3700
+Wire Wire Line
+	1750 3700 1600 3700
 $EndSCHEMATC
