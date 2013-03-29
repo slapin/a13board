@@ -1,4 +1,4 @@
-update=Чтв 28 Мар 2013 21:23:21
+update=Птн 29 Мар 2013 03:38:19
 version=1
 last_client=pcbnew
 [general]
@@ -60,8 +60,8 @@ version=1
 LastNetListRead=a13board.net
 UseCmpFile=1
 PadDrill=0
-PadSizeH=0,508
-PadSizeV=0,508
+PadSizeH=0,2
+PadSizeV=0,25
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0,3
@@ -91,3 +91,5 @@ LibName13=tsop48
 LibName14=ax209
 LibName15=BGA78
 LibName16=sod123
+LibName17=rn4x0402
+LibName18=cd32

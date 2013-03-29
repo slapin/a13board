@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = Чтв 28 Мар 2013 22:19:32
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = Птн 29 Мар 2013 01:27:23
 
 BeginCmp
 TimeStamp = /5148DFF8/514C7102;
@@ -592,35 +592,35 @@ BeginCmp
 TimeStamp = /514E0E66/51516418;
 Reference = L1;
 ValeurCmp = 2.2uH/1.5A/DCR<0.1R/CD32;
-IdModule  = ;
+IdModule  = CD32;
 EndCmp
 
 BeginCmp
 TimeStamp = /514E0E66/514E4971;
 Reference = L2;
 ValeurCmp = 2.2uH/1.5A/DCR<0.1R/CD32;
-IdModule  = ;
+IdModule  = CD32;
 EndCmp
 
 BeginCmp
 TimeStamp = /514E0E66/514E5C55;
 Reference = L3;
 ValeurCmp = 2.2uH/1.5A/DCR<0.1R/CD32;
-IdModule  = ;
+IdModule  = CD32;
 EndCmp
 
 BeginCmp
 TimeStamp = /514E0E66/514E3DE5;
 Reference = L4;
 ValeurCmp = 2.2uH/1.5A/DCR<0.1R/CD32;
-IdModule  = ;
+IdModule  = CD32;
 EndCmp
 
 BeginCmp
 TimeStamp = /514E0E66/514EE862;
 Reference = L5;
 ValeurCmp = 2.2uH/1.5A/DCR<0.1R/CD32;
-IdModule  = ;
+IdModule  = CD32;
 EndCmp
 
 BeginCmp
@@ -900,126 +900,126 @@ BeginCmp
 TimeStamp = /5148DFF8/5151D72D;
 Reference = RA1;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151D80A;
 Reference = RA2;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151DA0D;
 Reference = RA3;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151D846;
 Reference = RA4;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151DA25;
 Reference = RA5;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151DA55;
 Reference = RA6;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151DA3D;
 Reference = RA7;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151DA6D;
 Reference = RA8;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151DA9D;
 Reference = RA9;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /5148DFF8/5151DA85;
 Reference = RA10;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/51527E4F;
 Reference = RA11;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/51527E95;
 Reference = RA13;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/51527EAD;
 Reference = RA14;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/51527EC5;
 Reference = RA15;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/5152837D;
 Reference = RA17;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/51528395;
 Reference = RA18;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/515283AD;
 Reference = RA19;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp
 TimeStamp = /515122DA/51528887;
 Reference = RA20;
 ValeurCmp = RA4X0402;
-IdModule  = ;
+IdModule  = RN4x0402;
 EndCmp
 
 BeginCmp

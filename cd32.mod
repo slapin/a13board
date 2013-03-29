@@ -1,0 +1,36 @@
+PCBNEW-LibModule-V1  Птн 29 Мар 2013 00:45:10
+# encoding utf-8
+Units mm
+$INDEX
+CD32
+$EndINDEX
+$MODULE CD32
+Po 0 0 0 15 5154AB4A 00000000 ~~
+Li CD32
+Sc 0
+AR 
+Op 0 0 0
+T0 0.1 -2.6 1 1 0 0.15 N V 21 N "CD32"
+T1 0.2 2.7 1 1 0 0.15 N V 21 N "VAL**"
+DA 0 0.3 1.5 0.3 900 0.15 21
+DA 0 0.3 0 1.8 900 0.15 21
+DA 0 -0.3 0 -1.8 900 0.15 21
+DA 0 -0.3 -1.5 -0.3 900 0.15 21
+DS -1.5 -0.5 -1.5 0.5 0.15 21
+DS 1.5 -0.5 1.5 0.5 0.15 21
+$PAD
+Sh "1" R 3.5 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -1.1
+$EndPAD
+$PAD
+Sh "2" R 3.5 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 1.1
+$EndPAD
+$EndMODULE CD32
+$EndLIBRARY
