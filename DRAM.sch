@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Чтв 28 Мар 2013 21:40:27
+EESchema Schematic File Version 2  date Вск 31 Мар 2013 05:14:39
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title ""
-Date "28 mar 2013"
+Date "31 mar 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -1633,7 +1633,7 @@ F 1 "RA4X0402" H 4650 1400 26  0000 C CNN
 F 2 "~" H 4650 1400 60  0000 C CNN
 F 3 "~" H 4650 1400 60  0001 C CNN
 	1    4650 1400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA1
@@ -1644,7 +1644,7 @@ F 1 "RA4X0402" H 4650 1600 26  0000 C CNN
 F 2 "~" H 4650 1600 60  0000 C CNN
 F 3 "~" H 4650 1600 60  0001 C CNN
 	2    4650 1600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA1
@@ -1655,7 +1655,7 @@ F 1 "RA4X0402" H 4650 2000 26  0000 C CNN
 F 2 "~" H 4650 2000 60  0000 C CNN
 F 3 "~" H 4650 2000 60  0001 C CNN
 	3    4650 2000
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA1
@@ -1666,7 +1666,7 @@ F 1 "RA4X0402" H 4650 1800 26  0000 C CNN
 F 2 "~" H 4650 1800 60  0000 C CNN
 F 3 "~" H 4650 1800 60  0001 C CNN
 	4    4650 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA2
@@ -1677,7 +1677,7 @@ F 1 "RA4X0402" H 4650 2400 26  0000 C CNN
 F 2 "~" H 4650 2400 60  0000 C CNN
 F 3 "~" H 4650 2400 60  0001 C CNN
 	1    4650 2400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA2
@@ -1688,7 +1688,7 @@ F 1 "RA4X0402" H 4650 2800 26  0000 C CNN
 F 2 "~" H 4650 2800 60  0000 C CNN
 F 3 "~" H 4650 2800 60  0001 C CNN
 	2    4650 2800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA2
@@ -1699,7 +1699,7 @@ F 1 "RA4X0402" H 4650 2200 26  0000 C CNN
 F 2 "~" H 4650 2200 60  0000 C CNN
 F 3 "~" H 4650 2200 60  0001 C CNN
 	3    4650 2200
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA2
@@ -1710,7 +1710,7 @@ F 1 "RA4X0402" H 4650 2600 26  0000 C CNN
 F 2 "~" H 4650 2600 60  0000 C CNN
 F 3 "~" H 4650 2600 60  0001 C CNN
 	4    4650 2600
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA4
@@ -1721,7 +1721,7 @@ F 1 "RA4X0402" H 4650 2900 26  0000 C CNN
 F 2 "~" H 4650 2900 60  0000 C CNN
 F 3 "~" H 4650 2900 60  0001 C CNN
 	1    4650 2900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA4
@@ -1732,7 +1732,7 @@ F 1 "RA4X0402" H 4650 2700 26  0000 C CNN
 F 2 "~" H 4650 2700 60  0000 C CNN
 F 3 "~" H 4650 2700 60  0001 C CNN
 	2    4650 2700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA4
@@ -1743,7 +1743,7 @@ F 1 "RA4X0402" H 4650 2300 26  0000 C CNN
 F 2 "~" H 4650 2300 60  0000 C CNN
 F 3 "~" H 4650 2300 60  0001 C CNN
 	3    4650 2300
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA4
@@ -1754,7 +1754,7 @@ F 1 "RA4X0402" H 4650 2500 26  0000 C CNN
 F 2 "~" H 4650 2500 60  0000 C CNN
 F 3 "~" H 4650 2500 60  0001 C CNN
 	4    4650 2500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA3
@@ -1765,7 +1765,7 @@ F 1 "RA4X0402" H 4650 1900 26  0000 C CNN
 F 2 "~" H 4650 1900 60  0000 C CNN
 F 3 "~" H 4650 1900 60  0001 C CNN
 	1    4650 1900
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA3
@@ -1776,7 +1776,7 @@ F 1 "RA4X0402" H 4650 2100 26  0000 C CNN
 F 2 "~" H 4650 2100 60  0000 C CNN
 F 3 "~" H 4650 2100 60  0001 C CNN
 	2    4650 2100
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA3
@@ -1787,7 +1787,7 @@ F 1 "RA4X0402" H 4650 1700 26  0000 C CNN
 F 2 "~" H 4650 1700 60  0000 C CNN
 F 3 "~" H 4650 1700 60  0001 C CNN
 	3    4650 1700
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA3
@@ -1798,7 +1798,7 @@ F 1 "RA4X0402" H 4650 1500 26  0000 C CNN
 F 2 "~" H 4650 1500 60  0000 C CNN
 F 3 "~" H 4650 1500 60  0001 C CNN
 	4    4650 1500
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L RA4X0402 RA5
@@ -2064,4 +2064,100 @@ F 3 "~" H 7600 2500 60  0001 C CNN
 	4    7600 2500
 	1    0    0    -1  
 $EndComp
+Text Label 4850 1400 0    26   ~ 0
+CPU_D0
+Text Label 4850 1500 0    26   ~ 0
+CPU_D1
+Text Label 4850 1600 0    26   ~ 0
+CPU_D2
+Text Label 4850 1700 0    26   ~ 0
+CPU_D3
+Text Label 4850 1800 0    26   ~ 0
+CPU_D4
+Text Label 4850 1900 0    26   ~ 0
+CPU_D5
+Text Label 4850 2000 0    26   ~ 0
+CPU_D6
+Text Label 4850 2100 0    26   ~ 0
+CPU_D7
+Text Label 4850 2200 0    26   ~ 0
+CPU_D8
+Text Label 4850 2300 0    26   ~ 0
+CPU_D9
+Text Label 4850 2400 0    26   ~ 0
+CPU_D10
+Text Label 4850 2500 0    26   ~ 0
+CPU_D11
+Text Label 4850 2600 0    26   ~ 0
+CPU_D12
+Text Label 4850 2700 0    26   ~ 0
+CPU_D13
+Text Label 4850 2800 0    26   ~ 0
+CPU_D14
+Text Label 4850 2900 0    26   ~ 0
+CPU_D15
+Text Label 4950 3100 0    26   ~ 0
+CPU_CK
+Text Label 4950 3200 0    26   ~ 0
+CPU_CK_N
+Text Label 4950 3350 0    26   ~ 0
+CPU_DQS0
+Text Label 4950 3450 0    26   ~ 0
+CPU_DQS0_N
+Text Label 4950 3600 0    26   ~ 0
+CPU_DQS1
+Text Label 4950 3700 0    26   ~ 0
+CPU_DQS1_N
+Text Label 7250 1400 0    26   ~ 0
+CPU_A0
+Text Label 7250 1500 0    26   ~ 0
+CPU_A1
+Text Label 7250 1600 0    26   ~ 0
+CPU_A2
+Text Label 7250 1700 0    26   ~ 0
+CPU_A3
+Text Label 7250 1800 0    26   ~ 0
+CPU_A4
+Text Label 7250 1900 0    26   ~ 0
+CPU_A5
+Text Label 7250 2000 0    26   ~ 0
+CPU_A6
+Text Label 7250 2100 0    26   ~ 0
+CPU_A7
+Text Label 7250 2200 0    26   ~ 0
+CPU_A8
+Text Label 7250 2300 0    26   ~ 0
+CPU_A9
+Text Label 7250 2400 0    26   ~ 0
+CPU_A10
+Text Label 7250 2500 0    26   ~ 0
+CPU_A11
+Text Label 7250 2600 0    26   ~ 0
+CPU_A12
+Text Label 7250 2700 0    26   ~ 0
+CPU_A13
+Text Label 7250 2800 0    26   ~ 0
+CPU_A14
+Text Label 7250 3000 0    26   ~ 0
+CPU_BA0
+Text Label 7250 3100 0    26   ~ 0
+CPU_BA1
+Text Label 7250 3200 0    26   ~ 0
+CPU_BA2
+Text Label 7250 3400 0    26   ~ 0
+CPU_ODT
+Text Label 7250 3600 0    26   ~ 0
+CPU_DM0
+Text Label 7250 3700 0    26   ~ 0
+CPU_DM1
+Text Label 7250 3900 0    26   ~ 0
+CPU_MEMRST
+Text Label 7250 4150 0    26   ~ 0
+CPU_WE
+Text Label 7250 4250 0    26   ~ 0
+CPU_CKE
+Text Label 7250 4350 0    26   ~ 0
+CPU_CAS
+Text Label 7250 4450 0    26   ~ 0
+CPU_RAS
 $EndSCHEMATC
