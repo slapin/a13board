@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вск 31 Мар 2013 05:14:39
+EESchema Schematic File Version 2  date Птн 05 Апр 2013 20:45:05
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title ""
-Date "31 mar 2013"
+Date "5 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -334,4 +334,38 @@ Wire Wire Line
 	2850 3450 2950 3450
 Connection ~ 2950 3450
 NoConn ~ 5350 2300
+Text Label 3050 2150 0    26   ~ 0
+NDQ0
+Text Label 3050 2250 0    26   ~ 0
+NDQ1
+Text Label 3050 2350 0    26   ~ 0
+NDQ2
+Text Label 3050 2450 0    26   ~ 0
+NDQ3
+Text Label 3050 2550 0    26   ~ 0
+NDQ4
+Text Label 3050 2650 0    26   ~ 0
+NDQ5
+Text Label 3050 2750 0    26   ~ 0
+NDQ6
+Text Label 3050 2850 0    26   ~ 0
+NDQ7
+Text Label 8900 1400 0    26   ~ 0
+NRB0
+Text Label 8900 1500 0    26   ~ 0
+NRB1
+Text Label 9050 1650 0    26   ~ 0
+NWE
+Text Label 9050 1750 0    26   ~ 0
+NALE
+Text Label 9050 1850 0    26   ~ 0
+NCLE
+Text Label 9050 1950 0    26   ~ 0
+NRE
+Text Label 9050 2150 0    26   ~ 0
+NCE0
+Text Label 7750 2950 0    26   ~ 0
+NCE1
+Text Label 1250 3150 0    26   ~ 0
+NAND_WP
 $EndSCHEMATC

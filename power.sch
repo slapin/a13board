@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вск 31 Мар 2013 05:14:39
+EESchema Schematic File Version 2  date Птн 05 Апр 2013 20:45:05
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title ""
-Date "31 mar 2013"
+Date "5 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -2366,4 +2366,8 @@ F 3 "" H 7450 6350 60  0000 C CNN
 	1    7450 6350
 	1    0    0    -1  
 $EndComp
+Text Label 5050 2900 0    26   ~ 0
+VDD_CPU
+Text Label 5100 3500 0    26   ~ 0
+VDD_INT
 $EndSCHEMATC
