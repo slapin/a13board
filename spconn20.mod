@@ -1,0 +1,156 @@
+PCBNEW-LibModule-V1  Вск 07 Апр 2013 01:18:37
+# encoding utf-8
+Units mm
+$INDEX
+CONN20-2.54zzz
+$EndINDEX
+$MODULE CONN20-2.54zzz
+Po 0 0 0 15 516090E0 00000000 ~~
+Li CONN20-2.54zzz
+Sc 0
+AR 
+Op 0 0 0
+T0 5.715 1.905 1 1 0 0.15 N V 21 N "CONN20-254D"
+T1 -3.175 1.905 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -10.795 -0.635
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -9.525 0.635
+$EndPAD
+$PAD
+Sh "3" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.255 -0.635
+$EndPAD
+$PAD
+Sh "4" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.985 0.635
+$EndPAD
+$PAD
+Sh "5" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.715 -0.635
+$EndPAD
+$PAD
+Sh "6" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4.445 0.635
+$EndPAD
+$PAD
+Sh "7" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.175 -0.635
+$EndPAD
+$PAD
+Sh "8" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.905 0.635
+$EndPAD
+$PAD
+Sh "9" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.635 -0.635
+$EndPAD
+$PAD
+Sh "10" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.635 0.635
+$EndPAD
+$PAD
+Sh "11" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.905 -0.635
+$EndPAD
+$PAD
+Sh "12" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.175 0.635
+$EndPAD
+$PAD
+Sh "13" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.445 -0.635
+$EndPAD
+$PAD
+Sh "14" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.715 0.635
+$EndPAD
+$PAD
+Sh "15" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.985 -0.635
+$EndPAD
+$PAD
+Sh "16" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.255 0.635
+$EndPAD
+$PAD
+Sh "17" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 9.525 -0.635
+$EndPAD
+$PAD
+Sh "18" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.795 0.635
+$EndPAD
+$PAD
+Sh "19" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.065 -0.635
+$EndPAD
+$PAD
+Sh "20" C 1.3 1.3 0 0 0
+Dr 1 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 13.335 0.635
+$EndPAD
+$EndMODULE CONN20-2.54zzz
+$EndLIBRARY

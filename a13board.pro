@@ -1,4 +1,4 @@
-update=Птн 29 Мар 2013 22:35:54
+update=Вск 07 Апр 2013 01:22:26
 version=1
 last_client=pcbnew
 [general]
@@ -59,9 +59,9 @@ EquName1=devcms
 version=1
 LastNetListRead=a13board.net
 UseCmpFile=1
-PadDrill=0
-PadSizeH=0,2
-PadSizeV=0,25
+PadDrill=1
+PadSizeH=1,3
+PadSizeV=1,3
 PcbTextSizeV=1
 PcbTextSizeH=1
 PcbTextThickness=0,3
@@ -93,3 +93,4 @@ LibName15=BGA78
 LibName16=sod123
 LibName17=rn4x0402
 LibName18=cd32
+LibName19=spconn20
