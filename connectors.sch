@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 10 Апр 2013 21:49:35
+EESchema Schematic File Version 2  date Срд 10 Апр 2013 23:18:37
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -258,7 +258,7 @@ F 3 "" H 6400 1900 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text GLabel 6950 1750 2    26   Input ~ 0
-RESET_SW
+IPSOUT
 Text GLabel 6950 1850 2    26   Input ~ 0
 RESET_SW2
 Text GLabel 6950 1950 2    26   Input ~ 0
@@ -273,11 +273,11 @@ Text GLabel 2100 1350 2    26   Input ~ 0
 PIN2
 Text GLabel 2100 1450 2    26   Input ~ 0
 PIN1
-Text GLabel 6950 2550 2    26   Input ~ 0
+Text GLabel 2100 2850 2    26   Input ~ 0
 PIN0
 Text GLabel 6950 2650 2    26   Input ~ 0
 PWR_BUT
-Text GLabel 6950 2750 2    26   Input ~ 0
+Text GLabel 2100 3150 2    26   Input ~ 0
 USB0-DRV
 Text GLabel 4650 3350 2    26   Input ~ 0
 VDD_RTC
@@ -382,12 +382,9 @@ Wire Wire Line
 Wire Wire Line
 	2400 950  2400 2950
 Wire Wire Line
-	1900 3150 2400 3150
-Wire Wire Line
-	2400 3150 2400 5200
+	2400 5050 2400 5200
 Wire Wire Line
 	1900 5050 2400 5050
-Connection ~ 2400 5050
 Wire Wire Line
 	4450 4050 5050 4050
 Connection ~ 5050 5050
@@ -415,9 +412,6 @@ Wire Wire Line
 	1900 2650 2100 2650
 Wire Wire Line
 	1900 2750 2100 2750
-Wire Wire Line
-	1900 2850 2400 2850
-Connection ~ 2400 2850
 Wire Wire Line
 	1900 3250 2100 3250
 Wire Wire Line
@@ -539,11 +533,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 1950 6950 1950
 Wire Wire Line
-	6750 2550 6950 2550
-Wire Wire Line
 	6750 2650 6950 2650
-Wire Wire Line
-	6750 2750 6950 2750
 Wire Wire Line
 	1900 4150 2100 4150
 Wire Wire Line
@@ -647,4 +637,16 @@ Wire Wire Line
 	1900 1350 2100 1350
 Wire Wire Line
 	1900 1450 2100 1450
+Wire Wire Line
+	1900 3150 2100 3150
+Wire Wire Line
+	1900 2850 2100 2850
+Wire Wire Line
+	6750 2550 6900 2550
+Wire Wire Line
+	6900 2550 6900 2850
+Connection ~ 6900 2850
+Wire Wire Line
+	6750 2750 6900 2750
+Connection ~ 6900 2750
 $EndSCHEMATC

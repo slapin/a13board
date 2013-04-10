@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 10 Апр 2013 21:49:35
+EESchema Schematic File Version 2  date Срд 10 Апр 2013 23:18:37
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -643,7 +643,7 @@ Text GLabel 1400 2500 0    60   Input ~ 0
 Text GLabel 1400 2000 0    60   Input ~ 0
 5V_EXT
 Text GLabel 1200 6850 0    60   Input ~ 0
-RESET_SW
+IPSOUT
 Text GLabel 1200 7000 0    60   Input ~ 0
 RESET_SW2
 Text GLabel 550  4850 1    60   Input ~ 0
