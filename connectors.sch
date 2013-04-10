@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Птн 05 Апр 2013 20:45:05
+EESchema Schematic File Version 2  date Срд 10 Апр 2013 21:49:35
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "5 apr 2013"
+Date "10 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -96,15 +96,15 @@ F 3 "" H 4100 4100 60  0000 C CNN
 	1    4100 4100
 	-1   0    0    1   
 $EndComp
-Text GLabel 2100 1050 2    26   Input ~ 0
+Text GLabel 6950 2050 2    26   Input ~ 0
 PB10
-Text GLabel 2100 1150 2    26   Input ~ 0
+Text GLabel 6950 2150 2    26   Input ~ 0
 PG9
-Text GLabel 2100 1250 2    26   Input ~ 0
+Text GLabel 6950 2250 2    26   Input ~ 0
 PG10
-Text GLabel 2100 1350 2    26   Input ~ 0
+Text GLabel 6950 2350 2    26   Input ~ 0
 PG11
-Text GLabel 2100 1450 2    26   Input ~ 0
+Text GLabel 6950 2450 2    26   Input ~ 0
 PG12
 Text GLabel 2100 1550 2    26   Input ~ 0
 MIC
@@ -263,15 +263,15 @@ Text GLabel 6950 1850 2    26   Input ~ 0
 RESET_SW2
 Text GLabel 6950 1950 2    26   Input ~ 0
 EXTEN
-Text GLabel 6950 2050 2    26   Input ~ 0
+Text GLabel 2100 1050 2    26   Input ~ 0
 5V_EXT
-Text GLabel 6950 2150 2    26   Input ~ 0
+Text GLabel 2100 1150 2    26   Input ~ 0
 5V_OTG
-Text GLabel 6950 2250 2    26   Input ~ 0
+Text GLabel 2100 1250 2    26   Input ~ 0
 PIN3
-Text GLabel 6950 2350 2    26   Input ~ 0
+Text GLabel 2100 1350 2    26   Input ~ 0
 PIN2
-Text GLabel 6950 2450 2    26   Input ~ 0
+Text GLabel 2100 1450 2    26   Input ~ 0
 PIN1
 Text GLabel 6950 2550 2    26   Input ~ 0
 PIN0
@@ -279,67 +279,45 @@ Text GLabel 6950 2650 2    26   Input ~ 0
 PWR_BUT
 Text GLabel 6950 2750 2    26   Input ~ 0
 USB0-DRV
-Text GLabel 6950 3150 2    26   Input ~ 0
+Text GLabel 4650 3350 2    26   Input ~ 0
 VDD_RTC
-Text GLabel 6950 3250 2    26   Input ~ 0
+Text GLabel 2550 4650 2    26   Input ~ 0
 VPP
-Text GLabel 6950 3350 2    26   Input ~ 0
+Text GLabel 2100 4250 2    26   Input ~ 0
 WIFI-3V3
-Text GLabel 6950 3450 2    26   Input ~ 0
+Text GLabel 2100 3750 2    26   Input ~ 0
 LDO4_3V3_200MA
 $Comp
-L +3.3V #PWR059
+L +3.3V #PWR060
 U 1 1 51540444
-P 7500 3500
-F 0 "#PWR059" H 7500 3460 30  0001 C CNN
-F 1 "+3.3V" H 7500 3610 30  0000 C CNN
-F 2 "" H 7500 3500 60  0000 C CNN
-F 3 "" H 7500 3500 60  0000 C CNN
-	1    7500 3500
+P 5000 5000
+F 0 "#PWR060" H 5000 4960 30  0001 C CNN
+F 1 "+3.3V" H 5000 5110 30  0000 C CNN
+F 2 "" H 5000 5000 60  0000 C CNN
+F 3 "" H 5000 5000 60  0000 C CNN
+	1    5000 5000
 	1    0    0    -1  
 $EndComp
 $Comp
-L +BATT #PWR060
+L +BATT #PWR061
 U 1 1 51540454
-P 7700 3500
-F 0 "#PWR060" H 7700 3450 20  0001 C CNN
-F 1 "+BATT" H 7700 3600 30  0000 C CNN
-F 2 "" H 7700 3500 60  0000 C CNN
-F 3 "" H 7700 3500 60  0000 C CNN
-	1    7700 3500
+P 2300 2100
+F 0 "#PWR061" H 2300 2050 20  0001 C CNN
+F 1 "+BATT" H 2300 2200 30  0000 C CNN
+F 2 "" H 2300 2100 60  0000 C CNN
+F 3 "" H 2300 2100 60  0000 C CNN
+	1    2300 2100
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR061
+L +5V #PWR062
 U 1 1 51540AF4
-P 7900 3500
-F 0 "#PWR061" H 7900 3590 20  0001 C CNN
-F 1 "+5V" H 7900 3590 30  0000 C CNN
-F 2 "" H 7900 3500 60  0000 C CNN
-F 3 "" H 7900 3500 60  0000 C CNN
-	1    7900 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_10 P6
-U 1 1 51540B12
-P 6400 3600
-F 0 "P6" V 6350 3600 60  0000 C CNN
-F 1 "CONN_10" V 6450 3600 60  0000 C CNN
-F 2 "" H 6400 3600 60  0000 C CNN
-F 3 "" H 6400 3600 60  0000 C CNN
-	1    6400 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR062
-U 1 1 51540DC9
-P 7000 4100
-F 0 "#PWR062" H 7000 4100 30  0001 C CNN
-F 1 "GND" H 7000 4030 30  0001 C CNN
-F 2 "" H 7000 4100 60  0000 C CNN
-F 3 "" H 7000 4100 60  0000 C CNN
-	1    7000 4100
+P 5000 4600
+F 0 "#PWR062" H 5000 4690 20  0001 C CNN
+F 1 "+5V" H 5000 4690 30  0000 C CNN
+F 2 "" H 5000 4600 60  0000 C CNN
+F 3 "" H 5000 4600 60  0000 C CNN
+	1    5000 4600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -386,7 +364,7 @@ F 3 "" H 7000 2900 60  0000 C CNN
 	1    7000 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 7000 3850 2    26   Input ~ 0
+Text GLabel 4650 4350 2    26   Input ~ 0
 BACKUP
 $Comp
 L PWR_FLAG #FLG067
@@ -400,73 +378,19 @@ F 3 "" H 2000 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 3550 7500 3500
-Wire Wire Line
-	7700 3500 7700 3650
-Wire Wire Line
-	7700 3650 6750 3650
-Wire Wire Line
-	7900 3750 7900 3500
-Wire Wire Line
-	6750 3150 6950 3150
-Wire Wire Line
-	6750 3250 6950 3250
-Wire Wire Line
-	6750 3350 6950 3350
-Wire Wire Line
-	6750 3450 6950 3450
-Wire Wire Line
 	1900 950  2400 950 
 Wire Wire Line
 	2400 950  2400 2950
-Wire Wire Line
-	1900 2150 2400 2150
-Connection ~ 2400 2150
 Wire Wire Line
 	1900 3150 2400 3150
 Wire Wire Line
 	2400 3150 2400 5200
 Wire Wire Line
-	1900 3750 2400 3750
-Connection ~ 2400 3750
-Wire Wire Line
-	1900 4250 2400 4250
-Connection ~ 2400 4250
-Wire Wire Line
-	1900 4650 2400 4650
-Connection ~ 2400 4650
-Wire Wire Line
 	1900 5050 2400 5050
 Connection ~ 2400 5050
 Wire Wire Line
-	4450 3350 5050 3350
-Wire Wire Line
-	5050 3350 5050 5150
-Wire Wire Line
 	4450 4050 5050 4050
-Connection ~ 5050 4050
-Wire Wire Line
-	4450 4350 5050 4350
-Connection ~ 5050 4350
-Wire Wire Line
-	4450 4650 5050 4650
-Connection ~ 5050 4650
-Wire Wire Line
-	4450 5050 5050 5050
 Connection ~ 5050 5050
-Wire Wire Line
-	6750 3950 7000 3950
-Connection ~ 7000 4050
-Wire Wire Line
-	1900 1050 2100 1050
-Wire Wire Line
-	1900 1150 2100 1150
-Wire Wire Line
-	1900 1250 2100 1250
-Wire Wire Line
-	1900 1350 2100 1350
-Wire Wire Line
-	1900 1450 2100 1450
 Wire Wire Line
 	1900 1550 2100 1550
 Wire Wire Line
@@ -615,16 +539,6 @@ Wire Wire Line
 Wire Wire Line
 	6750 1950 6950 1950
 Wire Wire Line
-	6750 2050 6950 2050
-Wire Wire Line
-	6750 2150 6950 2150
-Wire Wire Line
-	6750 2250 6950 2250
-Wire Wire Line
-	6750 2350 6950 2350
-Wire Wire Line
-	6750 2450 6950 2450
-Wire Wire Line
 	6750 2550 6950 2550
 Wire Wire Line
 	6750 2650 6950 2650
@@ -633,73 +547,104 @@ Wire Wire Line
 Wire Wire Line
 	1900 4150 2100 4150
 Wire Wire Line
-	7000 3950 7000 4100
-Wire Wire Line
-	6750 3850 7000 3850
-Wire Wire Line
 	2000 900  2000 950 
 Connection ~ 2000 950 
 $Comp
 L PWR_FLAG #FLG068
 U 1 1 51543E31
-P 7400 2050
-F 0 "#FLG068" H 7400 2145 30  0001 C CNN
-F 1 "PWR_FLAG" H 7400 2230 30  0000 C CNN
-F 2 "" H 7400 2050 60  0000 C CNN
-F 3 "" H 7400 2050 60  0000 C CNN
-	1    7400 2050
+P 2550 1050
+F 0 "#FLG068" H 2550 1145 30  0001 C CNN
+F 1 "PWR_FLAG" H 2550 1230 30  0000 C CNN
+F 2 "" H 2550 1050 60  0000 C CNN
+F 3 "" H 2550 1050 60  0000 C CNN
+	1    2550 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG069
 U 1 1 51543ED2
-P 7800 3250
-F 0 "#FLG069" H 7800 3345 30  0001 C CNN
-F 1 "PWR_FLAG" H 7800 3430 30  0000 C CNN
-F 2 "" H 7800 3250 60  0000 C CNN
-F 3 "" H 7800 3250 60  0000 C CNN
-	1    7800 3250
+P 2550 2100
+F 0 "#FLG069" H 2550 2195 30  0001 C CNN
+F 1 "PWR_FLAG" H 2550 2280 30  0000 C CNN
+F 2 "" H 2550 2100 60  0000 C CNN
+F 3 "" H 2550 2100 60  0000 C CNN
+	1    2550 2100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7800 3250 7800 3550
-Wire Wire Line
-	7800 3550 7700 3550
-Connection ~ 7700 3550
-Connection ~ 7500 3550
 Wire Wire Line
 	6750 2850 7000 2850
 Wire Wire Line
 	7000 2850 7000 2900
-Wire Wire Line
-	6750 4050 7000 4050
 $Comp
 L PWR_FLAG #FLG070
 U 1 1 51547FC3
-P 7600 2150
-F 0 "#FLG070" H 7600 2245 30  0001 C CNN
-F 1 "PWR_FLAG" H 7600 2330 30  0000 C CNN
-F 2 "" H 7600 2150 60  0000 C CNN
-F 3 "" H 7600 2150 60  0000 C CNN
-	1    7600 2150
+P 2700 1150
+F 0 "#FLG070" H 2700 1245 30  0001 C CNN
+F 1 "PWR_FLAG" H 2700 1330 30  0000 C CNN
+F 2 "" H 2700 1150 60  0000 C CNN
+F 3 "" H 2700 1150 60  0000 C CNN
+	1    2700 1150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 2050 7400 2100
+	1900 2150 2550 2150
 Wire Wire Line
-	7400 2100 6850 2100
+	2300 2150 2300 2100
+Connection ~ 2300 2150
 Wire Wire Line
-	6850 2100 6850 2050
-Connection ~ 6850 2050
+	2550 2150 2550 2100
 Wire Wire Line
-	7600 2150 7600 2200
+	1900 4650 2550 4650
 Wire Wire Line
-	7600 2200 6850 2200
+	4450 3350 4650 3350
 Wire Wire Line
-	6850 2200 6850 2150
-Connection ~ 6850 2150
+	5050 4050 5050 5150
 Wire Wire Line
-	6750 3750 7900 3750
+	1900 3750 2100 3750
 Wire Wire Line
-	6750 3550 7500 3550
+	4450 4350 4650 4350
+Wire Wire Line
+	1900 4250 2100 4250
+Wire Wire Line
+	4450 4650 5000 4650
+Wire Wire Line
+	5000 4650 5000 4600
+Wire Wire Line
+	4450 5050 5000 5050
+Wire Wire Line
+	5000 5050 5000 5000
+Wire Wire Line
+	1900 1050 2100 1050
+Wire Wire Line
+	2550 1050 2550 1100
+Wire Wire Line
+	2550 1100 2000 1100
+Wire Wire Line
+	2000 1100 2000 1050
+Connection ~ 2000 1050
+Wire Wire Line
+	6750 2050 6950 2050
+Wire Wire Line
+	6750 2150 6950 2150
+Wire Wire Line
+	1900 1150 2100 1150
+Wire Wire Line
+	2000 1150 2000 1200
+Wire Wire Line
+	2000 1200 2700 1200
+Wire Wire Line
+	2700 1200 2700 1150
+Connection ~ 2000 1150
+Wire Wire Line
+	6750 2250 6950 2250
+Wire Wire Line
+	6750 2350 6950 2350
+Wire Wire Line
+	6750 2450 6950 2450
+Wire Wire Line
+	1900 1250 2100 1250
+Wire Wire Line
+	1900 1350 2100 1350
+Wire Wire Line
+	1900 1450 2100 1450
 $EndSCHEMATC
