@@ -10,7 +10,7 @@ GERBER_FILES = a13board-B_Cu.gbl \
 
 all: ../png/pcb.png ../gerber.zip
 
-../png/pcb.png: a13board.gvp
+../png/pcb.png: a13board.gvp ${GERBER_FILES}
 	gerbv -p a13board.gvp -D1200x1200 -x png -o ../png/pcb.png
 
 ../gerber.zip: $(GERBER_FILES)
