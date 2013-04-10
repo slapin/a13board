@@ -6651,6 +6651,7 @@
   (module allwinner_a13-OLIMEX_IC_TQFP176 (layer F.Cu) (tedit 51643A94) (tstamp 51545AE2)
     (at 113.5 91)
     (path /5148E053/5148E7F0)
+    (solder_paste_margin -0.07)
     (attr smd)
     (fp_text reference U2 (at -4.29006 -12.7) (layer B.SilkS)
       (effects (font (size 1.778 1.778) (thickness 0.0889)))

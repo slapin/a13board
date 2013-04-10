@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Втр 09 Апр 2013 19:58:26
+PCBNEW-LibModule-V1  Втр 09 Апр 2013 21:22:58
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,9 +10,7 @@ Li allwinner_a13-OLIMEX_IC_TQFP176
 Sc 0
 AR /5148E053/5148E7F0
 Op 0 0 0
-.SolderMask 0.1
-.SolderPaste -0.1
-.LocalClearance 0.1
+.SolderPaste -0.07
 At SMD
 T0 -4.29006 -12.7 1.778 1.778 0 0.0889 N V 20 N "U2"
 T1 -3.44424 12.7508 1.778 1.778 0 0.0889 N V 20 N "A13"
