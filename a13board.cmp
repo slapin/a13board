@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = Вск 07 Апр 2013 01:21:13
+Cmp-Mod V01 Created by CvPcb (2013-04-04 BZR 4007)-stable date = Срд 10 Апр 2013 17:00:01
 
 BeginCmp
 TimeStamp = /5148DFF8/514C7102;
@@ -662,7 +662,7 @@ BeginCmp
 TimeStamp = /5153D1B0/51540B12;
 Reference = P6;
 ValeurCmp = CONN_10;
-IdModule  = ;
+IdModule  = 10EDGE;
 EndCmp
 
 BeginCmp
@@ -1075,7 +1075,7 @@ BeginCmp
 TimeStamp = /515122DA/5153A7A3;
 Reference = X1;
 ValeurCmp = CRYSTAL;
-IdModule  = ;
+IdModule  = HC-49V;
 EndCmp
 
 EndListe
