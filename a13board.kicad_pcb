@@ -1,9 +1,9 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-03-19 BZR 4004)-stable")
+(kicad_pcb (version 3) (host pcbnew "(2013-04-12 BZR 4023)-testing")
 
   (general
     (links 623)
     (no_connects 58)
-    (area 77.089 44.196 137.795 142.113)
+    (area 77.091667 44.241667 137.78 142.09315)
     (thickness 1.6)
     (drawings 5)
     (tracks 4484)
@@ -685,10 +685,10 @@
     (path /515122DA/5153A7A3)
     (autoplace_cost180 10)
     (fp_text reference X1 (at 0 -3.81 180) (layer F.SilkS)
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      (effects (font (thickness 0.3048)))
     )
     (fp_text value CRYSTAL (at 0 3.81 180) (layer F.SilkS)
-      (effects (font (size 1.524 1.524) (thickness 0.3048)))
+      (effects (font (thickness 0.3048)))
     )
     (fp_line (start -3.175 2.54) (end 3.175 2.54) (layer F.SilkS) (width 0.3175))
     (fp_line (start -3.175 -2.54) (end 3.175 -2.54) (layer F.SilkS) (width 0.3175))
@@ -8214,7 +8214,7 @@
     )
   )
 
-  (module QFN48+1 (layer F.Cu) (tedit 5164C6AD) (tstamp 515489FB)
+  (module QFN48+1 (layer F.Cu) (tedit 51673DCE) (tstamp 515489FB)
     (at 110.2 65.65)
     (path /514E0E66/514E0EDD)
     (attr smd)

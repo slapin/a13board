@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  Срд 10 Апр 2013 06:04:28
+PCBNEW-LibModule-V1  Птн 12 Апр 2013 02:49:00
 # encoding utf-8
 Units mm
 $INDEX
 QFN48+1
 $EndINDEX
 $MODULE QFN48+1
-Po 0 0 0 15 5164C6AD 00000000 ~~
+Po 0 0 0 15 51673DCE 00000000 ~~
 Li QFN48+1
 Sc 0
 AR /514E0E66/514E0EDD
@@ -193,7 +193,7 @@ $PAD
 Sh "GND" R 5.10032 5.10032 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "GND"
 Po 0 0
 $EndPAD
 $PAD
@@ -368,91 +368,91 @@ $PAD
 Sh "GND" C 1.9 1.9 0 0 0
 Dr 1.4 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 0 0
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 1.143 0
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 1.778 0
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po -1.143 0
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po -1.778 0
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 900
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 0 1.27
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 900
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 0 1.905
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 900
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 0 -1.27
 $EndPAD
 $PAD
 Sh "GND" R 0.65 1.9 0 0 900
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 0 -1.905
 $EndPAD
 $PAD
 Sh "GND" R 0.65 0.65 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po -1.27 -1.27
 $EndPAD
 $PAD
 Sh "GND" R 0.65 0.65 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 1.27 -1.27
 $EndPAD
 $PAD
 Sh "GND" R 0.65 0.65 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po 1.27 1.27
 $EndPAD
 $PAD
 Sh "GND" R 0.65 0.65 0 0 0
 Dr 0.5 0 0
 At STD N 0088FFFF
-Ne 0 ""
+Ne 8 "GND"
 Po -1.27 1.27
 $EndPAD
 $EndMODULE QFN48+1

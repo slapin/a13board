@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Срд 10 Апр 2013 23:18:37
+EESchema Schematic File Version 2  date Птн 12 Апр 2013 02:40:44
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ LIBS:h5tq2g43cfr
 LIBS:sy8008baac
 LIBS:ra4x0402
 LIBS:a13board-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
