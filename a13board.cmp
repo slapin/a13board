@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-04 BZR 4007)-stable date = Срд 10 Апр 2013 20:14:22
+Cmp-Mod V01 Created by CvPcb (2013-04-04 BZR 4007)-stable date = Чтв 11 Апр 2013 15:59:11
 
 BeginCmp
 TimeStamp = /5148DFF8/514C7102;
@@ -627,42 +627,35 @@ BeginCmp
 TimeStamp = /5153D1B0/5153DAAE;
 Reference = P1;
 ValeurCmp = CONN_20;
-IdModule  = CONN20-2.54zzz;
+IdModule  = CONN20-1.27zzz;
 EndCmp
 
 BeginCmp
 TimeStamp = /5153D1B0/5153DABB;
 Reference = P2;
 ValeurCmp = CONN_20;
-IdModule  = CONN20-2.54zzz;
+IdModule  = CONN20-1.27zzz;
 EndCmp
 
 BeginCmp
 TimeStamp = /5153D1B0/5153DAC1;
 Reference = P3;
 ValeurCmp = CONN_20;
-IdModule  = CONN20-2.54zzz;
+IdModule  = CONN20-1.27zzz;
 EndCmp
 
 BeginCmp
 TimeStamp = /5153D1B0/5153DAC7;
 Reference = P4;
 ValeurCmp = CONN_20;
-IdModule  = CONN20-2.54zzz;
+IdModule  = CONN20-1.27zzz;
 EndCmp
 
 BeginCmp
 TimeStamp = /5153D1B0/5153ED81;
 Reference = P5;
 ValeurCmp = CONN_20;
-IdModule  = CONN20-2.54zzz;
-EndCmp
-
-BeginCmp
-TimeStamp = /5153D1B0/51540B12;
-Reference = P6;
-ValeurCmp = CONN_10;
-IdModule  = 10EDGE;
+IdModule  = CONN20-1.27zzz;
 EndCmp
 
 BeginCmp
