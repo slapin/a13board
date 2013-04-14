@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Птн 12 Апр 2013 02:40:44
+EESchema Schematic File Version 2  date Вск 14 Апр 2013 04:55:45
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "10 apr 2013"
+Date "14 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -379,28 +379,6 @@ F 1 "RA4X0402" H 7950 3500 26  0000 C CNN
 F 2 "~" H 7950 3500 60  0000 C CNN
 F 3 "~" H 7950 3500 60  0001 C CNN
 	2    7950 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L RA4X0402 RA20
-U 3 1 51528887
-P 7950 3900
-F 0 "RA20" H 7900 3950 26  0000 C CNN
-F 1 "RA4X0402" H 7950 3900 26  0000 C CNN
-F 2 "~" H 7950 3900 60  0000 C CNN
-F 3 "~" H 7950 3900 60  0001 C CNN
-	3    7950 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L RA4X0402 RA20
-U 4 1 5152888D
-P 7950 4000
-F 0 "RA20" H 7900 4050 26  0000 C CNN
-F 1 "RA4X0402" H 7950 4000 26  0000 C CNN
-F 2 "~" H 7950 4000 60  0000 C CNN
-F 3 "~" H 7950 4000 60  0001 C CNN
-	4    7950 4000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -929,4 +907,26 @@ MIC
 Wire Wire Line
 	700  1150 650  1150
 Connection ~ 700  1250
+$Comp
+L RA4X0402 RA19
+U 3 1 5167545D
+P 7950 3900
+F 0 "RA19" H 7900 3950 26  0000 C CNN
+F 1 "RA4X0402" H 7950 3900 26  0000 C CNN
+F 2 "~" H 7950 3900 60  0000 C CNN
+F 3 "~" H 7950 3900 60  0001 C CNN
+	3    7950 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L RA4X0402 RA19
+U 4 1 51675463
+P 7950 4000
+F 0 "RA19" H 7900 4050 26  0000 C CNN
+F 1 "RA4X0402" H 7950 4000 26  0000 C CNN
+F 2 "~" H 7950 4000 60  0000 C CNN
+F 3 "~" H 7950 4000 60  0001 C CNN
+	4    7950 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
