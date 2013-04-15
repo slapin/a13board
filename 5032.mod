@@ -1,0 +1,48 @@
+PCBNEW-LibModule-V1  Пнд 15 Апр 2013 19:57:39
+# encoding utf-8
+Units mm
+$INDEX
+C5032
+$EndINDEX
+$MODULE C5032
+Po 0 0 0 15 516C234F 00000000 ~~
+Li C5032
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "C5032"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+DS -2.5 1.6 2.5 1.6 0.15 21
+DS 2.5 1.6 2.5 -1.6 0.15 21
+DS 2.5 -1.6 -2.5 -1.6 0.15 21
+DS -2.5 -1.6 -2.5 1.6 0.15 21
+$PAD
+Sh "4" R 1.8 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.5 -1.1
+$EndPAD
+$PAD
+Sh "3" R 1.8 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.5 -1.1
+$EndPAD
+$PAD
+Sh "1" R 1.8 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.5 1.1
+$EndPAD
+$PAD
+Sh "2" R 1.8 1.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.5 1.1
+$EndPAD
+$EndMODULE C5032
+$EndLIBRARY

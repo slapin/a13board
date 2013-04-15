@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Вск 14 Апр 2013 04:55:45
+EESchema Schematic File Version 2  date Пнд 15 Апр 2013 20:50:12
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,14 +37,15 @@ LIBS:hy27ug088g5m
 LIBS:h5tq2g43cfr
 LIBS:sy8008baac
 LIBS:ra4x0402
+LIBS:crystal4
 LIBS:a13board-cache
-EELAYER 24 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title ""
-Date "14 apr 2013"
+Date "15 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -116,7 +117,7 @@ Text GLabel 2100 1750 2    26   Input ~ 0
 TPY2
 Text GLabel 2100 1850 2    26   Input ~ 0
 TPX1
-Text GLabel 2100 1950 2    26   Input ~ 0
+Text GLabel 4650 4350 2    26   Input ~ 0
 TPY1
 Text GLabel 2100 2250 2    26   Input ~ 0
 PE0
@@ -353,7 +354,7 @@ F 3 "" H 7000 2900 60  0000 C CNN
 	1    7000 2900
 	1    0    0    -1  
 $EndComp
-Text GLabel 4650 4350 2    26   Input ~ 0
+Text GLabel 2100 1950 2    26   Input ~ 0
 BACKUP
 $Comp
 L PWR_FLAG #FLG066
@@ -475,8 +476,6 @@ Wire Wire Line
 Wire Wire Line
 	5050 4050 5050 5150
 Wire Wire Line
-	4450 4350 4650 4350
-Wire Wire Line
 	4450 4650 5000 4650
 Wire Wire Line
 	5000 4650 5000 4600
@@ -513,8 +512,6 @@ Wire Wire Line
 Wire Wire Line
 	2500 5050 2500 5000
 Connection ~ 2400 5050
-Wire Wire Line
-	1900 1950 2100 1950
 Wire Wire Line
 	1900 1850 2100 1850
 Wire Wire Line
@@ -635,4 +632,8 @@ Wire Wire Line
 	4450 3850 4650 3850
 Wire Wire Line
 	4450 3950 4650 3950
+Wire Wire Line
+	1900 1950 2100 1950
+Wire Wire Line
+	4450 4350 4650 4350
 $EndSCHEMATC
