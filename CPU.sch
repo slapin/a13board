@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Пнд 15 Апр 2013 20:50:12
+EESchema Schematic File Version 2  date Срд 17 Апр 2013 22:02:58
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -39,13 +39,13 @@ LIBS:sy8008baac
 LIBS:ra4x0402
 LIBS:crystal4
 LIBS:a13board-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title ""
-Date "15 apr 2013"
+Date "17 apr 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -521,10 +521,10 @@ F 3 "" H 1650 2200 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR057
+L GND #PWR54
 U 1 1 5153B463
 P 1200 2700
-F 0 "#PWR057" H 1200 2700 30  0001 C CNN
+F 0 "#PWR54" H 1200 2700 30  0001 C CNN
 F 1 "GND" H 1200 2630 30  0001 C CNN
 F 2 "" H 1200 2700 60  0000 C CNN
 F 3 "" H 1200 2700 60  0000 C CNN
@@ -598,10 +598,10 @@ F 3 "" H 1700 1850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR058
+L GND #PWR53
 U 1 1 5153C6A3
 P 900 2000
-F 0 "#PWR058" H 900 2000 30  0001 C CNN
+F 0 "#PWR53" H 900 2000 30  0001 C CNN
 F 1 "GND" H 900 1930 30  0001 C CNN
 F 2 "" H 900 2000 60  0000 C CNN
 F 3 "" H 900 2000 60  0000 C CNN
@@ -609,10 +609,10 @@ F 3 "" H 900 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR059
+L GND #PWR55
 U 1 1 5153C6B0
 P 2200 2000
-F 0 "#PWR059" H 2200 2000 30  0001 C CNN
+F 0 "#PWR55" H 2200 2000 30  0001 C CNN
 F 1 "GND" H 2200 1930 30  0001 C CNN
 F 2 "" H 2200 2000 60  0000 C CNN
 F 3 "" H 2200 2000 60  0000 C CNN

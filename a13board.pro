@@ -1,57 +1,8 @@
-update=Пнд 15 Апр 2013 20:18:36
+update=Срд 17 Апр 2013 23:18:23
 version=1
-last_client=eeschema
+last_client=pcbnew
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
-[pcbnew]
-version=1
-LastNetListRead=a13board.net
-UseCmpFile=1
-PadDrill="    0,000000"
-PadDrillOvalY="    0,000000"
-PadSizeH="    1,800000"
-PadSizeV="    1,300000"
-PcbTextSizeV="    1,000000"
-PcbTextSizeH="    1,000000"
-PcbTextThickness="    0,300000"
-ModuleTextSizeV="    1,000000"
-ModuleTextSizeH="    1,000000"
-ModuleTextSizeThickness="    0,150000"
-SolderMaskClearance="    0,100000"
-SolderMaskMinWidth="    0,100000"
-DrawSegmentWidth="    0,200000"
-BoardOutlineThickness="    0,150000"
-ModuleOutlineThickness="    0,150000"
-[pcbnew/libraries]
-LibDir=
-LibName1=qfnax209
-LibName2=sockets
-LibName3=connect
-LibName4=discret
-LibName5=pin_array
-LibName6=divers
-LibName7=libcms
-LibName8=tsop48
-LibName9=display
-LibName10=led
-LibName11=dip_sockets
-LibName12=pga_sockets
-LibName13=valves
-LibName14=/home/slapin/a13board/allwinner_a13
-LibName15=ax209
-LibName16=BGA78
-LibName17=sod123
-LibName18=rn4x0402
-LibName19=cd32
-LibName20=spconn20
-LibName21=10EDGE
-LibName22=HC-49S
-LibName23=5032
 [eeschema]
 version=1
 LibDir=
@@ -100,3 +51,53 @@ LibName36=h5tq2g43cfr
 LibName37=sy8008baac
 LibName38=ra4x0402
 LibName39=crystal4
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[pcbnew]
+version=1
+LastNetListRead=a13board.net
+UseCmpFile=1
+PadDrill="    0,000000"
+PadDrillOvalY="    0,000000"
+PadSizeH="    0,635000"
+PadSizeV="    0,914400"
+PcbTextSizeV="    1,000000"
+PcbTextSizeH="    1,000000"
+PcbTextThickness="    0,300000"
+ModuleTextSizeV="    1,000000"
+ModuleTextSizeH="    1,000000"
+ModuleTextSizeThickness="    0,150000"
+SolderMaskClearance="    0,100000"
+SolderMaskMinWidth="    0,100000"
+DrawSegmentWidth="    0,200000"
+BoardOutlineThickness="    0,150000"
+ModuleOutlineThickness="    0,150000"
+[pcbnew/libraries]
+LibDir=
+LibName1=qfnax209
+LibName2=sockets
+LibName3=connect
+LibName4=discret
+LibName5=pin_array
+LibName6=divers
+LibName7=libcms
+LibName8=tsop48
+LibName9=display
+LibName10=led
+LibName11=dip_sockets
+LibName12=pga_sockets
+LibName13=valves
+LibName14=/home/slapin/a13board/allwinner_a13
+LibName15=ax209
+LibName16=BGA78
+LibName17=sod123
+LibName18=rn4x0402
+LibName19=cd32
+LibName20=spconn20
+LibName21=10EDGE
+LibName22=HC-49S
+LibName23=5032
+LibName24=sm0603

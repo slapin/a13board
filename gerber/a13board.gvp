@@ -1,4 +1,5 @@
 (gerbv-file-version! "2.0A")
+(define-layer! 6 (cons 'filename "a13board-Edge_Cuts.gbr")(cons 'visible #t)(cons 'color #(53713 6939 26728)))
 (define-layer! 5 (cons 'filename "a13board-B_Cu.gbl")(cons 'visible #t)(cons 'color #(54741 65021 13107)))
 (define-layer! 4 (cons 'filename "a13board-Inner2_Cu.gbr")(cons 'visible #t)(cons 'color #(0 50115 50115)))
 (define-layer! 3 (cons 'filename "a13board-Inner1_Cu.gbr")(cons 'visible #t)(cons 'color #(30069 62194 26471)))
