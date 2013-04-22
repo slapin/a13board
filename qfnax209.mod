@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Птн 19 Апр 2013 01:43:31
+PCBNEW-LibModule-V1  Пнд 22 Апр 2013 17:38:19
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,6 +10,7 @@ Li QFN48+1
 Sc 0
 AR /514E0E66/514E0EDD
 Op 0 0 0
+.SolderPaste -0.05
 At SMD
 T0 4.064 3.81 0.762 0.762 0 0.127 N V 21 N "U5"
 T1 4.699 -3.81 0.762 0.635 0 0.1524 N I 21 N "OLIMEX_IC_AXP209"

@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Пнд 22 Апр 2013 15:53:06
+PCBNEW-LibModule-V1  Пнд 22 Апр 2013 17:32:11
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,6 +10,7 @@ Li RN4x0402
 Sc 0
 AR 
 Op 0 0 0
+.SolderPaste -0.02
 T0 0.5 1.4 0.5 0.5 0 0.125 N V 21 N "RN4x0402"
 T1 0.425 -1.525 0.5 0.5 0 0.125 N I 21 N "VAL**"
 $PAD

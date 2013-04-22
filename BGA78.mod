@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Втр 02 Апр 2013 02:42:15
+PCBNEW-LibModule-V1  Пнд 22 Апр 2013 17:36:44
 # encoding utf-8
 Units mm
 $INDEX
@@ -11,6 +11,7 @@ Cd BGA78 MEMORY
 Sc 0
 AR /5148DFF8/514BEFE6
 Op 0 0 0
+.SolderPaste -0.05
 .LocalClearance 0.15
 T0 -1.25 4.5 0.889 0.889 2700 0.3048 N V 21 N "U4"
 T1 3.25 5 0.889 0.889 2700 0.3048 N V 21 N "H5TQ2G43CFR"
