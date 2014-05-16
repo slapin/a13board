@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-04-12 BZR 4023)-testing date = Срд 17 Апр 2013 23:28:44
+Cmp-Mod V01 Created by PcbNew date = Пт 16 май 2014 20:43:16
 
 BeginCmp
 TimeStamp = /5148DFF8/514C7102;
@@ -424,7 +424,7 @@ BeginCmp
 TimeStamp = /514E0E66/5153AF5F;
 Reference = C61;
 ValeurCmp = 100nF;
-IdModule  = SM0402;
+IdModule  = SM0603;
 EndCmp
 
 BeginCmp

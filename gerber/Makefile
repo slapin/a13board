@@ -1,5 +1,6 @@
 GERBER_FILES = a13board-B_Cu.gbl \
 		a13board.drl \
+		a13board-NPTH.drl \
 		a13board-Edge_Cuts.gbr \
 		a13board-F_Cu.gtl \
 		a13board-F_Mask.gts \

@@ -1,4 +1,4 @@
-update=Срд 17 Апр 2013 23:18:23
+update=Пн 12 май 2014 20:08:15
 version=1
 last_client=pcbnew
 [general]
@@ -62,8 +62,8 @@ LastNetListRead=a13board.net
 UseCmpFile=1
 PadDrill="    0,000000"
 PadDrillOvalY="    0,000000"
-PadSizeH="    0,635000"
-PadSizeV="    0,914400"
+PadSizeH="    0,300000"
+PadSizeV="    0,500000"
 PcbTextSizeV="    1,000000"
 PcbTextSizeH="    1,000000"
 PcbTextThickness="    0,300000"
